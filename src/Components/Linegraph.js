@@ -77,6 +77,7 @@ function Linegraph({ caseTypes = "cases" }) {
                         let activeCases = generateActiveCases(data);
                         data["active"] = activeCases;
                         console.log("active ",data);
+                        // eslint-disable-next-line react-hooks/exhaustive-deps
                         caseTypes = "active";
                       //  return;
                     }
