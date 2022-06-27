@@ -16,11 +16,11 @@ export const sortData = (data) => {
 const caseTypeColors = {
     cases: {
         color: "#cc1034",
-        multiplier: 800
+        multiplier: 200
     },
     recovered: {
         color: "#7dd71d",
-        multiplier: 800
+        multiplier: 200
     },
     active: {
         color: "#1769aa",
